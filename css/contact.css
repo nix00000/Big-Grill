@@ -1,0 +1,61 @@
+body{
+  background-color: lightgrey;
+
+}
+.contact{
+  min-height:500px;
+  width:70%;
+  min-width: 400px;
+  border: 1px solid black;
+  margin:60px auto;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+
+
+}
+
+.contact h3{
+  background-color: lightblue;
+  margin: 10px 0;
+  padding:25px 20px;
+  border-radius: 5px;
+
+}
+.mail{
+  width: 400px;
+  flex-basis: auto;
+  padding: 0 20px;
+
+}
+.mail input {
+  padding: 10px;
+  width:305px;
+  margin: 10px 30px;
+  border-radius: 5px;
+}
+.mail textarea {
+  padding: 10px;
+  margin: 10px 30px;
+  border-radius: 5px;
+  resize: vertical;
+
+}
+
+.mail button {
+  padding: 7px;
+  width:50px;
+  margin: 10px 150px;
+  border-radius: 5px;
+  background-color: lightgreen;
+
+}
+.info{
+  min-width: 350px;
+  max-width: 500px;
+  flex-basis: auto;
+  border-left: 1px dotted black;
+  padding: 0 20px;
+}

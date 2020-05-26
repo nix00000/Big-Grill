@@ -1,0 +1,113 @@
+body{
+  height:1000px;
+  margin: 0;
+}
+
+.wrap-checkout{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+/* form */
+.user-data-container{
+  width:650px;
+  margin-left: 150px;
+}
+.user-data-container h1 {
+}
+.user-data-container input {
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+#chbtn{
+  padding:5px;
+  background-color:  #66ff66;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#chbtn:hover{
+  background-color: #99ff99;
+}
+#rtrbtn{
+  padding:5px;
+  cursor: pointer;
+  background-color: #cccccc;
+  border-radius: 5px;
+}
+#rtrbtn:hover {
+  background-color: #d9d9d9;
+}
+
+.add-address {
+margin: 30px 0 30px 0 ;
+
+}
+.add-details {
+margin: 30px 0 30px 0 ;
+
+}
+
+
+
+
+/* Cart */
+.cart {
+  width:300px;
+  height:700px;
+  border : 1px solid black;
+  text-align: center;
+
+}
+
+.cart-items{
+  height:570px;
+  overflow-y: scroll;
+  border : 1px solid black;
+  text-align: left;
+}
+
+.cart-item{
+  margin: 15px 0 0 70px;
+}
+.cart-item > p{
+  margin:0;
+  display: inline-block;
+
+}
+.cart-item > button{
+  display: inline-block;
+  margin-left: 20px;
+
+}
+.checkout {
+  margin-top: 10px;
+}
+.action p{
+  display: inline-block;
+  margin:0;
+}
+.action h4{
+  padding: 7px 0 7px 0;
+  margin-bottom: 5px;
+  background-color: lightgrey;
+}
+
+#clear-cart{
+  height: 30px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: red;
+  cursor: pointer;
+}
+/* End of cart */
+
+
+/* form */
+textarea {
+  resize: none;
+}

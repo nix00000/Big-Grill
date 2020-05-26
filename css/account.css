@@ -1,0 +1,102 @@
+body{
+  height: 600px;
+}
+.profile-wrap{
+  width:30%;
+  min-width:350px;
+  height:500px;
+  margin: 30px auto;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.profile-wrap h2 {
+  margin-top: 0;
+  background-color: #8080ff;
+  padding: 10px 0;
+}
+
+.btns2 button{
+  width:100px;
+  padding:5px;
+  margin-bottom: 5px;
+  background-color: #9999ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btns2 button:hover{
+  background-color: #ccccff;
+}
+
+/* Info */
+.info {
+  overflow-y: auto;
+  height: 380px;
+}
+.info h4{
+  margin: 5px;
+}
+
+.info button{
+  width:150px;
+  padding: 5px;
+  background-color: #9999ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.change-password{
+  text-align:center;
+}
+.change-password input{
+  padding:5px;
+  margin: 7px 0;
+  border-radius: 5px;
+
+}
+#logout{
+  border-radius: 5px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.response{
+  margin: 5px;
+}
+.response p{
+  margin: 0;
+}
+.response-text-neg{
+  color:red;
+}
+.response-text-pos{
+  color:green;
+}
+
+/* orders */
+.ord-container{
+  display: flex;
+  flex-flow: column;
+  height:inherit;
+  width:inherit;
+}
+.ord-wrap{
+  width:300px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin: 10px auto;
+
+}
+.ord-wrap h3{
+  margin-top: 0;
+  padding: 7px 0;
+  background-color: lightblue;
+}
+
+.total{
+  font-weight: bold;
+  background-color: #e6e6ff;
+  padding: 10px 0;
+  border-top: 1px solid black;
+  margin: 0;
+}

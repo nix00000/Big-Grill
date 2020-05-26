@@ -1,0 +1,173 @@
+body {
+
+}
+
+.wrap{
+  height:800px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.buttons-container {
+  width: 200px;
+  height:auto;
+  float:left;
+  flex:1;
+}
+.buttons-container > ul {
+  list-style-type: none;
+}
+.buttons-container > ul > button {
+  display: block;
+  padding:5px 15px 5px 15px;
+  width:200px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.btns {
+  background-color: #6666ff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btns:hover {
+  color:white;
+}
+
+
+/* Products */
+.products-containter{
+  height: 700px;
+  width:600px;
+  border: 1px solid black;
+  flex:3;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow-y: auto;
+}
+
+.products {
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: #8080ff;
+  height:320px;
+  width:300px;
+  text-align:center;
+  margin: 10px;
+
+}
+.products button{
+  background-color: #66ff66;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.products button:hover{
+  background-color: #99ff99;
+
+}
+.products input {
+  border-radius: 5px;
+}
+.products > img {
+  height:150px;
+  width:150px;
+  border-radius: 30%;
+  margin: 10px 0 00px;
+}
+
+
+.price{
+  margin: 0;
+}
+
+.descr{
+  word-wrap: break-word;
+  margin:10px 10px;
+}
+.quantity{
+  width:40px;
+  padding:5px;
+}
+.price{
+  font-size:1.2em;
+  font-weight:bold;
+}
+
+.products > h3 {
+  margin:0;
+
+}
+.products > button {
+  margin-top:10px;
+  padding:5px;
+
+}
+
+/* Cart */
+.cart {
+  float:right;
+  display: inline-block;
+  width:300px;
+  height:700px;
+  border : 1px solid black;
+  text-align: center;
+  flex:1;
+
+}
+
+.cart-items{
+  height:570px;
+  overflow-y: scroll;
+  border : 1px solid black;
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+.cart-item{
+  margin: 15px 0 0 70px;
+}
+.cart-item > p{
+  margin:0;
+  display: inline-block;
+
+}
+.cart-item > button{
+  display: inline-block;
+  margin-left: 20px;
+
+}
+.checkout {
+  margin-top: 10px;
+}
+.action p{
+  display: inline-block;
+  margin:0;
+}
+.action h4{
+  padding: 7px 0 7px 0;
+  margin-bottom: 5px;
+  background-color: lightgrey;
+}
+
+.checkout-submit{
+  height: 30px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: lightgreen;
+  cursor: pointer;
+  margin-bottom: 5px;
+
+}
+#clear-cart{
+  height: 30px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: red;
+  cursor: pointer;
+}

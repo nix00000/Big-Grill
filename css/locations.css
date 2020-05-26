@@ -1,0 +1,40 @@
+.map {
+  height:200px;
+  width:100%;
+  background-color: lightgrey;
+}
+.map img{
+  height:inherit;
+  width: inherit;
+}
+.rest-info{
+  text-align: center;
+  background-color: lightblue;
+  padding: 20px 0;
+
+}
+.rest-info h1{
+  margin-top: 0;
+}
+.rest-info ul{
+  list-style-type: none;
+  width: 300px;
+  margin: auto;
+}
+.rest-info p{
+  text-align: left;
+  margin-left: 46px;
+}
+
+.locs{
+  text-align: center;
+  padding: 70px 0;
+}
+
+.locs h1{
+  margin-top: 0;
+}
+
+#myMap{
+  margin: auto;
+}

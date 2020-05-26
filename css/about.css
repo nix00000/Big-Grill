@@ -1,0 +1,31 @@
+
+.btns_ab{
+  width:100%;
+  text-align: center;
+  margin: 40px 0 0 0;
+  padding-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+.btns_ab button{
+  width:100px;
+  margin: 0 15px;
+  padding: 10px;
+  background-color: lightgreen;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.info-divs{
+  width:700px;
+  height:500px;
+  margin: auto;
+  display: none;
+}
+.info-divs h1{
+  text-align: center;
+}
+.info-divs h4{
+  text-align: center;
+}
+.info-divs p{
+  text-align: center;
+}

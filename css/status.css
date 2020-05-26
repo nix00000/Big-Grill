@@ -1,0 +1,62 @@
+
+.status-wrap{
+  margin: auto;
+  height:600px;
+  width:600px;
+}
+.positive{
+  width:35%;
+  height: 35%;
+  min-width: 400px;
+  margin: 20px auto;
+  border: 1px solid black;
+  padding: 20px;
+  background: lightblue;
+}
+.positive h1 {
+  margin-top: 0;
+}
+
+.positive button {
+  padding:7px;
+  border-radius: 5px;
+  margin-left: 140px;
+  cursor: pointer;
+}
+
+
+.negative{
+  width:35%;
+  height: 35%;
+  min-width: 400px;
+  margin: 20px auto;
+  border: 1px solid black;
+  padding: 20px;
+  background: lightblue;
+}
+.negative h1 {
+  margin-top: 0;
+}
+
+.negative button {
+  padding:7px;
+  border-radius: 5px;
+  margin-left: 140px;
+  cursor: pointer;
+}
+
+/* Logo */
+.status-logo{
+  height:150px;
+  width: 250px;
+  margin: auto;
+  display: block;
+}
+.status-logo h1{
+  margin: 0;
+}
+.status-logo img {
+  height:150px;
+  width: 150px;
+  margin: 0 50px;
+}

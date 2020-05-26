@@ -1,0 +1,96 @@
+
+.orders-container{
+  border: 1px solid black;
+  height:100%;
+  min-height: 400px;
+  width:100%;
+  display: flex;
+  flex-flow:row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.ord-wrap{
+  border: 1px solid black;
+  min-width: 250px;
+  max-width: 700px;
+  padding: 30px;
+  margin: 20px 10px;
+  font-size: 18px;
+  background-color: #E6E6FA;
+}
+.ord-wrap h3{
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+
+/* buttons */
+.btns3{
+  text-align: center;
+  width: 100%;
+  min-width: 400px;
+  margin: 30px 0;
+}
+.btns3 button{
+  padding: 10px;
+  width:150px;
+  margin: 0 20px;
+  border-radius: 5px;
+  background-color: #9999ff;
+  cursor: pointer;
+}
+.btns3 button:hover{
+  background-color: #ccccff;
+}
+/* Page */
+.page{
+  margin: 0;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  background-color: lightblue;
+  display: none;
+}
+
+/* feed */
+#feed{
+  margin: 0;
+  padding: 15px 0;
+  width: 100%;
+  text-align: center;
+  background-color: lightgreen;
+  border: 1px solid green;
+  display: none;
+}
+
+.show{
+  width:100%;
+  height:100%;
+  min-height: 800px;
+  border: 1px solid black;
+
+}
+
+/* buttons orders */
+.snd-del-btns{
+  text-align: center;
+
+
+}
+.send-btn{
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: lightgreen;
+}
+.del-btn{
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: red;
+}
+.disabledbtn {
+  padding: 7px;
+  border-radius: 5px;
+  background-color: default;
+}
