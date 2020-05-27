@@ -9,7 +9,7 @@ They can post a job application as well as keep an eye on who applied.
 <img src="screenshots/Capture.PNG" width="800">
   
 #### This projectuses the following technologies:
- - PHP
+ - PHP 7.2
  - JavaScript
  - html/css
   
