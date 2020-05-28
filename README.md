@@ -20,6 +20,7 @@ They can post a job application as well as keep an eye on who applied.
  could be added.
  - Payment system/options not integrated.
  - Order tracking notification (sound or visual) which alerts the user when the order is sent.
+ - Further room for improvement on user authentification could be done. The possibilities include "forgot password" and email verification
    
 ### Users Point of View:   
 <img src="screenshots/menu.PNG" width="500">
